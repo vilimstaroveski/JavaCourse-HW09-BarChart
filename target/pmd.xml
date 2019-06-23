@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2015-05-16T00:47:02.669">
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\barchart\src\main\java\hr\fer\zemris\java\gui\charts\BarChart.java">
+<violation beginline="17" endline="17" begincolumn="31" endcolumn="36" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChart" variable="values" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'values' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="22" endline="22" begincolumn="24" endcolumn="27" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChart" variable="xDes" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'xDes' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="27" endline="27" begincolumn="24" endcolumn="27" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChart" variable="yDes" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'yDes' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="32" endline="32" begincolumn="21" endcolumn="24" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChart" variable="yMin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'yMin' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="37" endline="37" begincolumn="21" endcolumn="24" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChart" variable="yMax" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'yMax' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="42" endline="42" begincolumn="21" endcolumn="24" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChart" variable="step" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'step' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="53" endline="53" begincolumn="25" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChart" method="BarChart" variable="values" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'values' is not assigned and could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="47" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChart" method="BarChart" variable="xDescription" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'xDescription' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="66" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChart" method="BarChart" variable="step" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'step' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="25" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChart" method="BarChart" variable="yDescription" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yDescription' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="56" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChart" method="BarChart" variable="yMax" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yMax' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="46" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChart" method="BarChart" variable="yMin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'yMin' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\barchart\src\main\java\hr\fer\zemris\java\gui\charts\BarChartComponent.java">
+<violation beginline="24" endline="204" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'BarChartComponent' has a Cyclomatic Complexity of 8 (Highest = 14).
+</violation>
+<violation beginline="24" endline="204" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'BarChartComponent' has a Modified Cyclomatic Complexity of 8 (Highest = 14).
+</violation>
+<violation beginline="24" endline="204" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'BarChartComponent' has a Standard Cyclomatic Complexity of 8 (Highest = 14).
+</violation>
+<violation beginline="34" endline="34" begincolumn="26" endcolumn="30" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" variable="chart" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'chart' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="40" endline="51" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="BarChartComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="40" endline="40" begincolumn="34" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="BarChartComponent" variable="chart" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'chart' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="17" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="BarChartComponent" variable="current" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'current' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="17" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="BarChartComponent" variable="empty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'empty' could be declared final
+</violation>
+<violation beginline="54" endline="203" begincolumn="19" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="54" endline="54" begincolumn="48" endcolumn="48" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="g" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like g
+</violation>
+<violation beginline="54" endline="167" begincolumn="29" endcolumn="143" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="value" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'value' (lines '54'-'167').
+</violation>
+<violation beginline="54" endline="54" begincolumn="39" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="g" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'g' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="203" begincolumn="19" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'paintComponent' has a Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="54" endline="203" begincolumn="19" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'paintComponent' has a Modified Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="54" endline="203" begincolumn="19" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'paintComponent' has a Standard Cyclomatic Complexity of 14.
+</violation>
+<violation beginline="54" endline="203" begincolumn="19" endcolumn="9" rule="NPathComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#NPathComplexity" priority="3">
+The method paintComponent() has an NPath complexity of 2016
+</violation>
+<violation beginline="56" endline="56" begincolumn="17" endcolumn="47" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="g2d" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'g2d' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="29" endcolumn="30" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="fm" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like fm
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="fm" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'fm' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="17" endcolumn="43" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insets" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insets' could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="17" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="size" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'size' could be declared final
+</violation>
+<violation beginline="63" endline="65" begincolumn="17" endcolumn="141" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="frameForDrawing" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'frameForDrawing' could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="17" endcolumn="62" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="defaultAt" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'defaultAt' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="xDescription" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'xDescription' could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="lengthOfX" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lengthOfX' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="33" endcolumn="34" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="at" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like at
+</violation>
+<violation beginline="76" endline="76" begincolumn="17" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="at" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'at' could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="yDescription" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'yDescription' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="17" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="lengthOfY" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'lengthOfY' could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="21" endcolumn="40" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insetsForSecondFrame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like insetsForSecondFrame
+</violation>
+<violation beginline="85" endline="85" begincolumn="17" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insetsForSecondFrame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insetsForSecondFrame' could be declared final
+</violation>
+<violation beginline="86" endline="88" begincolumn="17" endcolumn="144" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="secondFrame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'secondFrame' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="17" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="widthOfYMax" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'widthOfYMax' could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="17" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="widthOfYMin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'widthOfYMin' could be declared final
+</violation>
+<violation beginline="97" endline="97" begincolumn="17" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="maxWidth" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'maxWidth' could be declared final
+</violation>
+<violation beginline="98" endline="98" begincolumn="17" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="yValues" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'yValues' could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="21" endcolumn="47" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insetForThirdFrameBottomTop" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like insetForThirdFrameBottomTop
+</violation>
+<violation beginline="100" endline="100" begincolumn="17" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insetForThirdFrameBottomTop" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insetForThirdFrameBottomTop' could be declared final
+</violation>
+<violation beginline="101" endline="101" begincolumn="21" endcolumn="41" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insetsForThirdFrameLR" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like insetsForThirdFrameLR
+</violation>
+<violation beginline="101" endline="101" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="insetsForThirdFrameLR" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insetsForThirdFrameLR' could be declared final
+</violation>
+<violation beginline="102" endline="105" begincolumn="17" endcolumn="147" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="thirdFrame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'thirdFrame' could be declared final
+</violation>
+<violation beginline="113" endline="113" begincolumn="21" endcolumn="40" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="spaceBetweenVertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like spaceBetweenVertical
+</violation>
+<violation beginline="113" endline="113" begincolumn="17" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="spaceBetweenVertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'spaceBetweenVertical' could be declared final
+</violation>
+<violation beginline="114" endline="116" begincolumn="25" endcolumn="56" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="valuesOnY" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valuesOnY' (lines '114'-'116').
+</violation>
+<violation beginline="116" endline="116" begincolumn="25" endcolumn="56" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="valuesOnY" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valuesOnY' (lines '116'-'116').
+</violation>
+<violation beginline="124" endline="126" begincolumn="25" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="valuesOnX" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valuesOnX' (lines '124'-'126').
+</violation>
+<violation beginline="126" endline="126" begincolumn="25" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="valuesOnX" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valuesOnX' (lines '126'-'126').
+</violation>
+<violation beginline="129" endline="129" begincolumn="21" endcolumn="43" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="availableSpaceForXValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availableSpaceForXValue
+</violation>
+<violation beginline="129" endline="129" begincolumn="17" endcolumn="81" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="availableSpaceForXValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'availableSpaceForXValue' could be declared final
+</violation>
+<violation beginline="131" endline="131" begincolumn="25" endcolumn="112" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="offset" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'offset' could be declared final
+</violation>
+<violation beginline="164" endline="164" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="164" endline="179" begincolumn="21" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'i' (lines '164'-'179').
+</violation>
+<violation beginline="165" endline="174" begincolumn="25" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="values" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'values' (lines '165'-'174').
+</violation>
+<violation beginline="166" endline="166" begincolumn="21" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="value" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'value' could be declared final
+</violation>
+<violation beginline="167" endline="167" begincolumn="25" endcolumn="143" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="heightOfColumn" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'heightOfColumn' could be declared final
+</violation>
+<violation beginline="168" endline="171" begincolumn="42" endcolumn="103" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="168" endline="171" begincolumn="25" endcolumn="103" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="rect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rect' could be declared final
+</violation>
+<violation beginline="174" endline="174" begincolumn="25" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="values" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'values' (lines '174'-'174').
+</violation>
+<violation beginline="175" endline="179" begincolumn="21" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'i' (lines '175'-'179').
+</violation>
+<violation beginline="180" endline="183" begincolumn="33" endcolumn="48" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="hasShadow" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'hasShadow' (lines '180'-'183').
+</violation>
+<violation beginline="180" endline="187" begincolumn="33" endcolumn="48" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="hasShadow" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'hasShadow' (lines '180'-'187').
+</violation>
+<violation beginline="181" endline="181" begincolumn="29" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'diference' (lines '181'-'181').
+</violation>
+<violation beginline="181" endline="184" begincolumn="33" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'diference' (lines '181'-'184').
+</violation>
+<violation beginline="181" endline="188" begincolumn="33" endcolumn="81" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'diference' (lines '181'-'188').
+</violation>
+<violation beginline="181" endline="203" begincolumn="29" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'diference' (lines '181'-'203').
+</violation>
+<violation beginline="184" endline="181" begincolumn="29" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'diference' (lines '184'-'181').
+</violation>
+<violation beginline="184" endline="203" begincolumn="33" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'diference' (lines '184'-'203').
+</violation>
+<violation beginline="188" endline="181" begincolumn="29" endcolumn="41" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'diference' (lines '188'-'181').
+</violation>
+<violation beginline="188" endline="203" begincolumn="33" endcolumn="81" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diference" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'diference' (lines '188'-'203').
+</violation>
+<violation beginline="193" endline="193" begincolumn="33" endcolumn="155" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="heightOfColumn" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'heightOfColumn' could be declared final
+</violation>
+<violation beginline="194" endline="194" begincolumn="33" endcolumn="149" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="diferenceHeight" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'diferenceHeight' could be declared final
+</violation>
+<violation beginline="195" endline="198" begincolumn="50" endcolumn="116" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="195" endline="198" begincolumn="33" endcolumn="116" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartComponent" method="paintComponent" variable="rect" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rect' could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\barchart\src\main\java\hr\fer\zemris\java\gui\charts\BarChartDemo.java">
+<violation beginline="44" endline="44" begincolumn="26" endcolumn="33" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" variable="barChart" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'barChart' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="55" endline="63" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="BarChartDemo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="55" endline="55" begincolumn="29" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="BarChartDemo" variable="barChart" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'barChart' is not assigned and could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="17" endcolumn="77" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="initGUI" variable="component" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'component' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="92" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="initGUI" variable="title" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'title' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="33" endcolumn="45" rule="UseVarargs" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="84" endline="84" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="35" endcolumn="35" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="main" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="92" endline="92" begincolumn="17" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="main" variable="barChart" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'barChart' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="main" variable="demo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'demo' could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="50" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="pathToFile" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pathToFile' is not assigned and could be declared final
+</violation>
+<violation beginline="107" endline="119" begincolumn="25" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="xDescription" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'xDescription' (lines '107'-'119').
+</violation>
+<violation beginline="108" endline="120" begincolumn="25" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="yDescription" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'yDescription' (lines '108'-'120').
+</violation>
+<violation beginline="109" endline="122" begincolumn="25" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="yMin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'yMin' (lines '109'-'122').
+</violation>
+<violation beginline="110" endline="123" begincolumn="25" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="yMax" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'yMax' (lines '110'-'123').
+</violation>
+<violation beginline="111" endline="124" begincolumn="25" endcolumn="70" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="step" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'step' (lines '111'-'124').
+</violation>
+<violation beginline="112" endline="121" begincolumn="25" endcolumn="75" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="barChartFromFile" variable="values" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'values' (lines '112'-'121').
+</violation>
+<violation beginline="150" endline="156" begincolumn="35" endcolumn="64" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="point" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'point' (lines '150'-'156').
+</violation>
+<violation beginline="150" endline="150" begincolumn="58" endcolumn="72" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="fileLine" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'fileLine' is not assigned and could be declared final
+</violation>
+<violation beginline="152" endline="152" begincolumn="17" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="values" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'values' could be declared final
+</violation>
+<violation beginline="153" endline="153" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="points" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'points' could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="21" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="point" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'point' could be declared final
+</violation>
+<violation beginline="156" endline="156" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="coordinates" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'coordinates' could be declared final
+</violation>
+<violation beginline="157" endline="157" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="157" endline="157" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'x' could be declared final
+</violation>
+<violation beginline="158" endline="158" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="158" endline="158" begincolumn="25" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'y' could be declared final
+</violation>
+<violation beginline="159" endline="159" begincolumn="36" endcolumn="52" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="BarChartDemo" method="parseToListOfValues" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\barchart\src\main\java\hr\fer\zemris\java\gui\charts\XYValue.java">
+<violation beginline="13" endline="13" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="XYValue" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="13" endline="13" begincolumn="21" endcolumn="21" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="XYValue" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'x' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="18" endline="18" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="XYValue" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="18" endline="18" begincolumn="21" endcolumn="21" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.charts" class="XYValue" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'y' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="25" endline="25" begincolumn="28" endcolumn="28" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="XYValue" method="XYValue" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="25" endline="25" begincolumn="35" endcolumn="35" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.charts" class="XYValue" method="XYValue" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="25" endline="25" begincolumn="24" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="XYValue" method="XYValue" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'x' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="31" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.charts" class="XYValue" method="XYValue" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'y' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>
